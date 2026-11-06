@@ -152,3 +152,6 @@ footer {
 }
 .lang-name { flex: 1 0 100%; font-weight: 600; }
 .home + footer { text-align: center; }
+
+/* Адрес ссылки текстом (страница тестирования): без переносов он шире экрана телефона. */
+.url { overflow-wrap: anywhere; }
